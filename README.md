@@ -120,6 +120,7 @@ pml.verification <- read.csv("data/pml-testing.csv")
 pml.verification <- pml.verification[, colnames(pml.verification) %in% colnames(pml.data.train)]
 predict(modelFit, pml.verification)
 ```
+![download](https://user-images.githubusercontent.com/102541316/161299431-cae18d62-3732-4529-b9c3-2193c6649772.png)
 
 # Appendix: 
 
